@@ -1,0 +1,2190 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Openillink v2\n"
+"POT-Creation-Date: 2014-05-16 08:11+0200\n"
+"PO-Revision-Date: 2014-05-16 13:18+0100\n"
+"Last-Translator: Sester <cyril.sester@outlook.com>\n"
+"Language-Team: Blaise Beguin\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#: Console/Command/NotificationShellphp:54
+msgid "Nouvelle(s) demande de document"
+msgstr "New orders"
+
+#: Console/Command/NotificationShellphp:55
+msgid "Vous avez %s nouvelle(s) demandes de documents sur OpenIllink."
+msgstr "You have %s new orders waiting on Openillink"
+
+#: Console/Command/NotificationShellphp:68
+msgid "Rappel de PEB"
+msgstr "ILL reminder"
+
+#: Controller/AdminControllerphp:45
+#: Controller/IpControllerphp:70
+#: Controller/LibrariesControllerphp:66
+#: Controller/LinksControllerphp:70
+#: Controller/OriginsControllerphp:70
+#: Controller/ServicesControllerphp:77
+#: Controller/StatusControllerphp:73
+#: Controller/UsersControllerphp:66
+msgid "Modifications effectuées."
+msgstr "Changes done."
+
+#: Controller/AdminControllerphp:48
+#: Controller/IpControllerphp:73
+#: Controller/LibrariesControllerphp:69
+#: Controller/LinksControllerphp:73
+#: Controller/OriginsControllerphp:73
+#: Controller/ServicesControllerphp:80
+#: Controller/UsersControllerphp:69
+msgid "Impossible d'effectuer les changements."
+msgstr "Unable to perform your changes."
+
+#: Controller/IpControllerphp:46
+msgid "Nouvelle plage IP créée."
+msgstr "New IP range created."
+
+#: Controller/IpControllerphp:51
+#: Controller/LinksControllerphp:49
+msgid "Erreur lors de la sauvegarde."
+msgstr "An error occured during the save procedure."
+
+#: Controller/IpControllerphp:99
+msgid "La plage IP \"%s\" a été supprimée."
+msgstr "IP range \"%s\" has been deleted."
+
+#: Controller/IpControllerphp:103
+#: Controller/LinksControllerphp:105
+#: Controller/OriginsControllerphp:105
+#: Controller/UsersControllerphp:102
+msgid "Erreur lors de la suppression."
+msgstr "An error occured while deleting data."
+
+#: Controller/LibrariesControllerphp:46
+msgid "Nouvelle bibliothèque créée."
+msgstr "New library created."
+
+#: Controller/LibrariesControllerphp:95
+msgid "La bibliothèque \"%s\" a été supprimée."
+msgstr "Library \"%s\" has been deleted."
+
+#: Controller/LibrariesControllerphp:99
+msgid "Impossible de supprimer la bibliothèque. Vérifiez que ce ne soit pas celle par défaut."
+msgstr "Impossible to delete this library. Please make sure it's not the default one."
+
+#: Controller/LinksControllerphp:44
+msgid "Nouveau lien créé."
+msgstr "New link created."
+
+#: Controller/LinksControllerphp:101
+msgid "Le lien \"%s\" a été supprimé."
+msgstr "Link \"%s\" has been deleted."
+
+#: Controller/OrdersControllerphp:83
+msgid "Paramètres de recherche incorrects."
+msgstr "Invalid search parameters."
+
+#: Controller/OrdersControllerphp:86
+msgid "recherche"
+msgstr "search"
+
+#: Controller/OrdersControllerphp:116
+msgid "Commande saisie par %s le %s "
+msgstr "Order created by %s at %s"
+
+#: Controller/OrdersControllerphp:130
+msgid "Possible doublon de la commande %s"
+msgstr "Potential duplicate of order %s"
+
+#: Controller/OrdersControllerphp:200
+msgid "Commande modifiée par %s le %s"
+msgstr "Order changed by %s at %s"
+
+#: Controller/OrdersControllerphp:231
+msgid "La commande a été mise à jour."
+msgstr "Order has been updated."
+
+#: Controller/OrdersControllerphp:234
+msgid "Impossible d'effectuer les modifications"
+msgstr "Unable to save changes."
+
+#: Controller/OrdersControllerphp:258
+msgid "La commande \"%s\" a été supprimée."
+msgstr "Order \"%s\" has been deleted."
+
+#: Controller/OrdersControllerphp:262
+msgid "Erreur lors de la suppression de la commande"
+msgstr "Error while deleting order"
+
+#: Controller/OrdersControllerphp:272
+msgid "La boite poubelle a été vidée."
+msgstr "Trash box has been cleared."
+
+#: Controller/OrdersControllerphp:276
+msgid "Erreur lors de la suppression des éléments de la boite poubelle"
+msgstr "Error while emptying trash box"
+
+#: Controller/OrdersControllerphp:706
+msgid "localisations communes"
+msgstr "shared locations"
+
+#: Controller/OriginsControllerphp:44
+msgid "Nouvelle provenance créée."
+msgstr "New origin created."
+
+#: Controller/OriginsControllerphp:49
+msgid "Erreur lors de la sauvegarde. Assurez-vous que la combinaison nom / bibliothèque d'attribution soit unique."
+msgstr "An error occurend while saving. Name / library of attribution should be unique."
+
+#: Controller/OriginsControllerphp:101
+msgid "La provenance \"%s\" a été supprimée."
+msgstr "Origin \"%s\" has been deleted."
+
+#: Controller/ServicesControllerphp:49
+msgid "Nouveau service créé."
+msgstr "New service created."
+
+#: Controller/ServicesControllerphp:108
+msgid "Le service \"%s\" a été supprimé."
+msgstr "Service \"%s\" has been deleted."
+
+#: Controller/ServicesControllerphp:112
+msgid "Erreur lors de la suppression du service"
+msgstr "An error occured while deleting the service"
+
+#: Controller/ServicesControllerphp:142;146
+msgid "Nouvelle valeur"
+msgstr "New value"
+
+#: Controller/StatisticsControllerphp:37
+msgid "Nombre de commande par service pour chaque provenance"
+msgstr "Number of orders by service for each origin"
+
+#: Controller/StatisticsControllerphp:37
+msgid "Temps moyen de traitement"
+msgstr "Average processing time"
+
+#: Controller/StatisticsControllerphp:40
+msgid "Statistiques prédéfinies"
+msgstr "Predefined statistics"
+
+#: Controller/StatisticsControllerphp:40
+msgid "Statistiques personnalisées"
+msgstr "Custom statistics"
+
+#: Controller/StatisticsControllerphp:172
+msgid "Statistiques du %s au %s"
+msgstr "Statistics from %s to %s"
+
+#: Controller/StatisticsControllerphp:201
+msgid "Temps moyen de traitement du %s au %s"
+msgstr "Average processing time from %s to %s"
+
+#: Controller/StatisticsControllerphp:211
+msgid "Temps moyen de traitement pour toute la période"
+msgstr "Average processing time for the entire period"
+
+#: Controller/StatusControllerphp:46
+msgid "Nouveau statut créé."
+msgstr "New status created."
+
+#: Controller/StatusControllerphp:51
+msgid "Impossible de créer le nouveau statut. Assurez-vous que le nom du statut soit unique."
+msgstr "Unable to create new status. Make sure name is unique."
+
+#: Controller/StatusControllerphp:76
+msgid "Impossible d'effectuer les changements. Assurez-vous que le nom du statut soit unique."
+msgstr "Unable to save changes. Make sure name is unique."
+
+#: Controller/StatusControllerphp:104
+msgid "Le statut \"%s\" a été supprimé."
+msgstr "Status \"%s\" has been deleted."
+
+#: Controller/StatusControllerphp:108
+msgid "Erreur lors de la suppression du statut"
+msgstr "An error occured while deleting the status"
+
+#: Controller/UsersControllerphp:44
+msgid "Nouvel utilisateur créé."
+msgstr "New user created."
+
+#: Controller/UsersControllerphp:98
+msgid "L'utilisateur \"%s\" a été supprimé."
+msgstr "User \"%s\" has been deleted."
+
+#: Controller/UsersControllerphp:118
+msgid "Identifiant ou mot de passe invalide."
+msgstr "Invalid login / password."
+
+#: Controller/UsersControllerphp:136
+msgid "L'authentification Shibboleth a échouée"
+msgstr "Shibboleth authentication has failed"
+
+#: Model/AppModelphp:36
+msgid "Toutes les bibliothèques"
+msgstr "All libraries"
+
+#: Model/Orderphp:60
+msgid "N° de commande"
+msgstr "Order number"
+
+#: Model/Orderphp:60
+#: View/Orders/detailsctp:35
+msgid "Date de la commande"
+msgstr "Date of order"
+
+#: Model/Orderphp:60
+#: View/Orders/createctp:53
+#: View/Orders/detailsctp:36
+#: View/Orders/editctp:50
+msgid "Date d'envoi"
+msgstr "Date of transmission"
+
+#: Model/Orderphp:60
+#: View/Orders/createctp:62
+#: View/Orders/detailsctp:37
+#: View/Orders/editctp:57
+msgid "Date de facturation"
+msgstr "Date of invoice"
+
+#: Model/Orderphp:60
+#: View/Orders/createctp:37
+#: View/Orders/detailsctp:41
+#: View/Orders/editctp:40
+#: View/Orders/indexctp:56
+msgid "Statut"
+msgstr "Status"
+
+#: Model/Orderphp:60
+#: Model/Statisticphp:40
+#: View/Orders/createctp:38
+#: View/Orders/detailsctp:40
+#: View/Orders/editctp:41
+#: View/Orders/indexctp:53
+msgid "Provenance"
+msgstr "Origin"
+
+#: Model/Orderphp:60
+msgid "Nom du lecteur"
+msgstr "Requester's name"
+
+#: Model/Orderphp:60
+msgid "Email du lecteur"
+msgstr "Requester's email"
+
+#: Model/Orderphp:60
+#: View/Orders/confirmationctp:40
+#: View/Orders/createctp:117
+#: View/Orders/detailsctp:45
+#: View/Orders/editctp:98
+#: View/Orders/indexctp:75
+#: View/Orders/resolve_from_l_d_a_pctp:32
+msgid "Service"
+msgstr "Service"
+
+#: Model/Orderphp:60
+msgid "ISBN/ISSN"
+msgstr "ISBN/ISSN"
+
+#: Model/Orderphp:60;229
+#: View/Links/createctp:38
+#: View/Links/editctp:38
+#: View/Links/indexctp:42
+#: View/Orders/confirmationctp:51
+#: View/Orders/detailsctp:56
+msgid "PMID"
+msgstr "PMID"
+
+#: Model/Orderphp:60;230
+#: View/Orders/confirmationctp:52
+#: View/Orders/detailsctp:57
+msgid "DOI"
+msgstr "DOI"
+
+#: Model/Orderphp:60
+msgid "Titre du périodique / du livre"
+msgstr "Journal / book title"
+
+#: Model/Orderphp:60
+msgid "Titre de l'article / du chapitre"
+msgstr "Article / chapter title"
+
+#: Model/Orderphp:60
+msgid "Auteur"
+msgstr "Author"
+
+#: Model/Orderphp:60
+msgid "Référence fournisseur"
+msgstr "Provider reference"
+
+#: Model/Orderphp:60
+msgid "Référence interne"
+msgstr "Internal reference"
+
+#: Model/Orderphp:60
+msgid "Sur tous les champs"
+msgstr "All fields"
+
+#: Model/Orderphp:199
+msgid "Commande "
+msgstr "Order"
+
+#: Model/Orderphp:201
+msgid "Bonjour"
+msgstr "Hello"
+
+#: Model/Orderphp:206
+msgid "Suite à votre commande, nous vous informons que le document n' est pas disponible."
+msgstr "Following your order we inform you that the document is not available."
+
+#: Model/Orderphp:210
+msgid "Suite à votre commande, nous vous informons que le document n' est pas encore disponible. Sans nouvelle de votre part, votre commande sera retraitée le %s."
+msgstr "Following your order we inform you that the document is not available. Without further notice from you your order will be reprocess on %s"
+
+#: Model/Orderphp:213
+msgid "Suite à votre commande de document, nous avons le plaisir de vous transmettre en fichier attaché le document demandé."
+msgstr "Following your order we have the pleasure to send you as an attachment the requested document."
+
+#: Model/Orderphp:220
+#: View/Links/createctp:32
+#: View/Links/editctp:32
+#: View/Orders/confirmationctp:42
+#: View/Orders/detailsctp:47
+#: View/Orders/indexctp:78
+msgid "Titre"
+msgstr "Title"
+
+#: Model/Orderphp:221
+#: View/Orders/confirmationctp:43
+#: View/Orders/createctp:204
+#: View/Orders/detailsctp:48
+#: View/Orders/editctp:180
+#: View/Orders/indexctp:81
+#: View/Orders/resolvectp:52
+msgid "Auteurs"
+msgstr "Authors"
+
+#: Model/Orderphp:222
+#: View/Orders/confirmationctp:44
+#: View/Orders/createctp:184
+#: View/Orders/detailsctp:49
+#: View/Orders/editctp:160
+#: View/Orders/indexctp:86
+#: View/Orders/resolvectp:32
+msgid "Livre"
+msgstr "Book"
+
+#: Model/Orderphp:222
+#: View/Orders/confirmationctp:44
+#: View/Orders/detailsctp:49
+#: View/Orders/indexctp:84
+msgid "Périodique"
+msgstr "Journal"
+
+#: Model/Orderphp:223
+#: View/Orders/confirmationctp:45
+#: View/Orders/detailsctp:50
+msgid "Volume"
+msgstr "Volume"
+
+#: Model/Orderphp:224
+#: View/Orders/confirmationctp:46
+#: View/Orders/createctp:196
+#: View/Orders/detailsctp:51
+#: View/Orders/editctp:172
+#: View/Orders/indexctp:92
+#: View/Orders/resolvectp:44
+msgid "N°"
+msgstr "Issue"
+
+#: Model/Orderphp:225
+#: View/Orders/confirmationctp:47
+#: View/Orders/createctp:197
+#: View/Orders/detailsctp:52
+#: View/Orders/editctp:173
+#: View/Orders/resolvectp:45
+msgid "Suppl."
+msgstr "Suppl."
+
+#: Model/Orderphp:226
+#: View/Orders/confirmationctp:48
+#: View/Orders/createctp:198
+#: View/Orders/detailsctp:53
+#: View/Orders/editctp:174
+#: View/Orders/indexctp:93
+#: View/Orders/resolvectp:46
+msgid "Pages"
+msgstr "Pages"
+
+#: Model/Orderphp:227
+#: View/Orders/confirmationctp:49
+#: View/Orders/createctp:194
+#: View/Orders/detailsctp:54
+#: View/Orders/editctp:170
+#: View/Orders/indexctp:94
+#: View/Orders/resolvectp:42
+msgid "Année"
+msgstr "Year"
+
+#: Model/Orderphp:228
+#: View/Links/createctp:37
+#: View/Links/editctp:37
+#: View/Links/indexctp:42
+#: View/Orders/confirmationctp:50
+#: View/Orders/detailsctp:55
+msgid "ISBN"
+msgstr "ISBN"
+
+#: Model/Orderphp:228
+#: View/Links/createctp:36
+#: View/Links/editctp:36
+#: View/Links/indexctp:42
+#: View/Orders/confirmationctp:50
+#: View/Orders/detailsctp:55
+msgid "ISSN"
+msgstr "ISSN"
+
+#: Model/Orderphp:231
+#: View/Orders/confirmationctp:53
+#: View/Orders/detailsctp:58
+msgid "Autre identificateur"
+msgstr "Other identifier"
+
+#: Model/Orderphp:232
+msgid "Commandé par"
+msgstr "Ordered by"
+
+#: Model/Orderphp:233
+msgid "Remarque"
+msgstr "Remarks"
+
+#: Model/Orderphp:247
+msgid "Nouveau service : suivez vos commandes d'articles en temps réel. Vous pouvez vous connecter à l'adresse %s"
+msgstr "New service : follow your orders of articles in real time. You can log in at address % s"
+
+#: Model/Orderphp:248
+#: View/Orders/confirmationctp:54
+#: View/Orders/detailsctp:75
+#: View/Users/createctp:44
+#: View/Users/editctp:47
+#: View/Users/loginctp:32
+msgid "Identifiant"
+msgstr "Login"
+
+#: Model/Orderphp:248
+#: View/Admin/editctp:72
+#: View/Orders/confirmationctp:54
+#: View/Orders/detailsctp:75
+#: View/Users/createctp:48
+#: View/Users/loginctp:33
+msgid "Mot de passe"
+msgstr "Password"
+
+#: Model/Orderphp:252
+msgid "Cordialement"
+msgstr "Best regards"
+
+#: Model/Orderphp:254
+msgid "Courriel"
+msgstr "Email"
+
+#: Model/Orderphp:255
+#: View/Orders/createctp:124
+#: View/Orders/editctp:105
+#: View/Orders/resolve_from_l_d_a_pctp:39
+msgid "Tél"
+msgstr "Phone"
+
+#: Model/Orderphp:256
+#: View/Admin/editctp:41
+msgid "Site web"
+msgstr "Website"
+
+#: Model/Orderphp:375
+msgid "Une erreur est survenue lors de la requête"
+msgstr "An error occured while fetching meta-data"
+
+#: Model/Statisticphp:54
+msgid "Total par service"
+msgstr "Total per service"
+
+#: Model/Statisticphp:58
+msgid "Total du mois"
+msgstr "Month total"
+
+#: Model/Statisticphp:76
+msgid "Total par provenance"
+msgstr "Total per origin"
+
+#: Model/Statusphp:50
+#: View/Layouts/defaultctp:62;75;83
+#: View/Orders/createctp:27
+msgid "Nouvelle commande"
+msgstr "New order"
+
+#: Model/Statusphp:51
+msgid "Commande envoyée"
+msgstr "Sent"
+
+#: Model/Statusphp:52
+msgid "Commande soldée"
+msgstr "Paid"
+
+#: Model/Statusphp:53
+msgid "Commande à renouveler"
+msgstr "Renew"
+
+#: Model/Statusphp:54
+msgid "Commande rejetée"
+msgstr "Rejected"
+
+#: Model/Statusphp:55
+msgid "Commande à valider"
+msgstr "To be validated"
+
+#: Model/Statusphp:56
+msgid "Livre en PEB"
+msgstr "ILL book"
+
+#: View/Admin/editctp:27
+msgid "Édition des variables du système"
+msgstr "Edition of the system variables"
+
+#: View/Admin/editctp:29
+#: View/Admin/indexctp:68
+msgid "Gestion des variables du système"
+msgstr "Management of the system variables"
+
+#: View/Admin/editctp:32
+msgid "Coordonnées de la bibliothèque"
+msgstr "Library contact information"
+
+#: View/Admin/editctp:34;45
+#: View/Ip/createctp:32
+#: View/Ip/editctp:32
+#: View/Ip/indexctp:32
+#: View/Libraries/createctp:32
+#: View/Libraries/editctp:32
+#: View/Libraries/indexctp:32
+#: View/Links/indexctp:32
+#: View/Orders/confirmationctp:37
+#: View/Orders/createctp:113
+#: View/Orders/editctp:94
+#: View/Orders/resolve_from_l_d_a_pctp:27
+#: View/Origins/createctp:32
+#: View/Origins/editctp:32
+#: View/Origins/indexctp:32
+#: View/Services/createctp:32
+#: View/Services/editctp:32
+#: View/Services/indexctp:32
+#: View/Status/createctp:32
+#: View/Status/editctp:32
+#: View/Status/indexctp:32
+#: View/Users/createctp:42
+#: View/Users/editctp:45
+#: View/Users/indexctp:38
+msgid "Nom"
+msgstr "Name"
+
+#: View/Admin/editctp:35;69;78
+#: View/Orders/confirmationctp:39
+#: View/Orders/detailsctp:44
+#: View/Orders/indexctp:74
+msgid "Adresse"
+msgstr "Adress"
+
+#: View/Admin/editctp:36
+#: View/Orders/createctp:127
+#: View/Orders/editctp:108
+msgid "Code postal"
+msgstr "Zip code"
+
+#: View/Admin/editctp:37
+msgid "Ville"
+msgstr "City"
+
+#: View/Admin/editctp:38
+msgid "Pays"
+msgstr "Country"
+
+#: View/Admin/editctp:39;47
+msgid "N° de tél."
+msgstr "Phone number"
+
+#: View/Admin/editctp:40;46
+msgid "Adresse email"
+msgstr "Email adress"
+
+#: View/Admin/editctp:43
+msgid "Coordonnées du responsable"
+msgstr "Contacts information of the person in charge"
+
+#: View/Admin/editctp:49
+msgid "URL du catalogue de revues"
+msgstr "URL of the  Journals catalog"
+
+#: View/Admin/editctp:50
+msgid "Adresse email pour la livraison d'articles"
+msgstr "Email address for the transmission of articles"
+
+#: View/Admin/editctp:50
+msgid "Sera utilisé pour préremplir un formulaire de commande auprès d'un fournisseur"
+msgstr "Will be used to prefill an order form from a supplier."
+
+#: View/Admin/editctp:51
+msgid "Adresse email de l'administrateur"
+msgstr "Email address of the administrator"
+
+#: View/Admin/editctp:52
+msgid "Identifiant CrossRef"
+msgstr "CrossRef identifier"
+
+#: View/Admin/editctp:52;54
+msgid "Une des deux options CrossRef doit être renseignée afin de pouvoir décoder les DOI."
+msgstr "One of the two CrossRef options must be filled in order to decode the DOI."
+
+#: View/Admin/editctp:52
+msgid "Mot de passe CrossRef"
+msgstr "CrossRef password"
+
+#: View/Admin/editctp:54
+msgid "Email Free CrossWeb"
+msgstr "Email Free CrossWeb"
+
+#: View/Admin/editctp:55
+msgid "Nom de l'annuaire 1"
+msgstr "Directory Name 1"
+
+#: View/Admin/editctp:55
+msgid "Adresse de l'annuaire 1 :"
+msgstr "Address directory 1 :"
+
+#: View/Admin/editctp:56
+msgid "Nom de l'annuaire 2"
+msgstr "Directory Name 2"
+
+#: View/Admin/editctp:56
+msgid "Adresse de l'annuaire 2 :"
+msgstr "Address directory 2 :"
+
+#: View/Admin/editctp:57
+msgid "Détection de la langue automatique"
+msgstr "Automatic language detection"
+
+#: View/Admin/editctp:58
+msgid "OpenURL sid"
+msgstr "OpenURL sid"
+
+#: View/Admin/editctp:59
+msgid "Configuration Shibboleth (SSO)"
+msgstr "Shibboleth configuration (SSO)"
+
+#: View/Admin/editctp:61
+msgid "Authentification Shibboleth activée"
+msgstr "Shibboleth authentication activated"
+
+#: View/Admin/editctp:62
+msgid "Adresse du Discovery Service"
+msgstr "Adress of the Discovery Service"
+
+#: View/Admin/editctp:63
+msgid "IdentityID"
+msgstr "IdentityID"
+
+#: View/Admin/editctp:64
+msgid "Adresse de retour"
+msgstr "return address :"
+
+#: View/Admin/editctp:66
+msgid "Configuration LDAP"
+msgstr "LDAP configuration"
+
+#: View/Admin/editctp:68
+msgid "Résolution LDAP activée"
+msgstr "LDAP lookup enabled"
+
+#: View/Admin/editctp:70;79
+msgid "Port"
+msgstr "Port"
+
+#: View/Admin/editctp:71
+msgid "RDN"
+msgstr "RDN"
+
+#: View/Admin/editctp:73
+msgid "Base DN"
+msgstr "Base DN"
+
+#: View/Admin/editctp:75
+msgid "Configuration proxy"
+msgstr "Proxy configuration"
+
+#: View/Admin/editctp:77
+msgid "Utilisation d'un proxy activée"
+msgstr "Proxy use enabled"
+
+#: View/Admin/editctp:80
+msgid "Nom d'utilisateur (optionnel)"
+msgstr "Username (optional)"
+
+#: View/Admin/editctp:81
+msgid "Mot de passe (optionnel)"
+msgstr "Password (optional)"
+
+#: View/Admin/editctp:83
+msgid "Info d'identification guest dans les mails"
+msgstr "Include guest login/password in emails"
+
+#: View/Admin/editctp:84
+msgid "Champs de facturation visibles"
+msgstr "Invoice fields visibility"
+
+#: View/Admin/editctp:85
+msgid "Champs rubriques budgétaires visibles"
+msgstr "Budget topics fields visible"
+
+#: View/Admin/editctp:86
+msgid "Information pour les usagers"
+msgstr "Information message"
+
+#: View/Admin/editctp:89
+#: View/Ip/editctp:36
+#: View/Libraries/editctp:36
+#: View/Links/editctp:55
+#: View/Origins/editctp:36
+#: View/Services/editctp:46
+#: View/Status/editctp:38
+msgid "Enregistrer les modifications"
+msgstr "Save changes"
+
+#: View/Admin/editctp:89
+#: View/Ip/createctp:35
+#: View/Ip/editctp:36
+#: View/Libraries/createctp:35
+#: View/Libraries/editctp:37
+#: View/Links/createctp:54
+#: View/Links/editctp:56
+#: View/Origins/createctp:35
+#: View/Origins/editctp:37
+#: View/Services/createctp:45
+#: View/Services/editctp:47
+#: View/Status/createctp:37
+#: View/Status/editctp:39
+#: View/Users/createctp:51
+#: View/Users/editctp:57
+msgid "Annuler"
+msgstr "Cancel"
+
+#: View/Admin/indexctp:27;29
+#: View/Layouts/defaultctp:67
+msgid "Administration"
+msgstr "Administration"
+
+#: View/Admin/indexctp:35
+#: View/Users/indexctp:27;35
+msgid "Gestion des utilisateurs"
+msgstr "Users management"
+
+#: View/Admin/indexctp:36
+msgid "Créer un nouvel utilisateur"
+msgstr "Create a new user"
+
+#: View/Admin/indexctp:37;62
+msgid "Modifier mes codes d'accès"
+msgstr "Change my access codes"
+
+#: View/Admin/indexctp:39
+#: View/Libraries/indexctp:27
+msgid "Gestion des bibliothèques"
+msgstr "Libraries management"
+
+#: View/Admin/indexctp:40
+msgid "Créer une nouvelle bibliothèque"
+msgstr "Create a new library"
+
+#: View/Admin/indexctp:42
+#: View/Origins/indexctp:27
+msgid "Gestion des provenances"
+msgstr "Origins management"
+
+#: View/Admin/indexctp:43
+msgid "Créer une nouvelle provenance"
+msgstr "Create a new origin"
+
+#: View/Admin/indexctp:45
+msgid "Gestion des statuts de commande"
+msgstr "Management of order statuses"
+
+#: View/Admin/indexctp:46
+msgid "Créer un nouveau statut de commande"
+msgstr "Create a new order status"
+
+#: View/Admin/indexctp:48
+msgid "Gestion des unités/services"
+msgstr "Management units/services"
+
+#: View/Admin/indexctp:49
+msgid "Créer une nouvelle unité/service"
+msgstr "Create a new unit/service"
+
+#: View/Admin/indexctp:51
+#: View/Links/indexctp:27;29
+msgid "Gestion des liens sortants"
+msgstr "Management of outgoing  links"
+
+#: View/Admin/indexctp:52
+msgid "Créer un nouveau lien sortant"
+msgstr "Create a new outgoing link"
+
+#: View/Admin/indexctp:54
+#: View/Ip/indexctp:27;29
+msgid "Gestion des plages IP"
+msgstr "Management of IP ranges"
+
+#: View/Admin/indexctp:55
+msgid "Créer une nouvelle plage IP"
+msgstr "Create a new IP range"
+
+#: View/Admin/indexctp:69
+msgid "Vider la boite poubelle"
+msgstr "Empty the trash box"
+
+#: View/Emails/html/peb_notificationctp:28
+msgid "Vous avez %s livre(s) emprunté(s) arrivant bientôt à échéance"
+msgstr "You have  %s borrowed book(s) arriving soon expire"
+
+#: View/Emails/html/peb_notificationctp:32
+msgid "N° de commande : %s"
+msgstr "Order No. : %s"
+
+#: View/Emails/html/peb_notificationctp:33
+msgid "Emprunteur : %s, %s (%s)"
+msgstr "Borrower : %s, %s (%s)"
+
+#: View/Emails/html/peb_notificationctp:34
+msgid "Titre : %s"
+msgstr "Title : %s"
+
+#: View/Emails/html/peb_notificationctp:35
+msgid "Fournisseur : %s"
+msgstr "Provider : %s"
+
+#: View/Emails/html/peb_notificationctp:36
+msgid "N° référence fournisseur : %s"
+msgstr "N° reference provider : %s"
+
+#: View/Ip/createctp:27
+msgid "Création d'une nouvelle plage IP"
+msgstr "Creation of a new IP range"
+
+#: View/Ip/createctp:29
+msgid "Gestion des plages IP : Création d'une nouvelle fiche"
+msgstr "Management of IP ranges : Creation of a new form"
+
+#: View/Ip/createctp:33
+#: View/Ip/editctp:33
+msgid "Masque réseau"
+msgstr "Netmask"
+
+#: View/Ip/createctp:35
+msgid "Enregistrer la nouvelle plage IP"
+msgstr "Save the new IP range"
+
+#: View/Ip/editctp:27
+msgid "Édition de la plage IP \"%s\""
+msgstr "Edition of the IP range \"%s\""
+
+#: View/Ip/editctp:29
+msgid "Gestion des plages IP : Édition de la fiche"
+msgstr "Management of IP ranges : Edition of form"
+
+#: View/Ip/editctp:38
+#: View/Libraries/editctp:39
+#: View/Links/editctp:58
+#: View/Orders/editctp:197
+#: View/Origins/editctp:39
+#: View/Services/editctp:49
+#: View/Status/editctp:41
+#: View/Users/editctp:59
+msgid "Supprimer"
+msgstr "Suppress"
+
+#: View/Ip/editctp:38
+#: View/Ip/indexctp:41
+msgid "Etes-vous sûr de vouloir supprimer la plage \"%s\"?"
+msgstr "Are you sure you want to delete the range \"%s\"?"
+
+#: View/Ip/indexctp:30
+msgid "plages(s) trouvée(s)"
+msgstr "range(s) found"
+
+#: View/Ip/indexctp:33
+msgid "Masque"
+msgstr "Mask"
+
+#: View/Ip/indexctp:34
+#: View/Libraries/indexctp:34
+#: View/Links/indexctp:38
+#: View/Origins/indexctp:34
+#: View/Services/indexctp:37
+#: View/Status/indexctp:36
+#: View/Users/indexctp:43
+msgid "Actions"
+msgstr "Actions"
+
+#: View/Ip/indexctp:46
+msgid "Ajouter une nouvelle plage IP"
+msgstr "Add a new IP range"
+
+#: View/Layouts/defaultctp:19
+msgid "OpenIllink"
+msgstr "OpenIllink"
+
+#: View/Layouts/defaultctp:61;74
+msgid "Déconnexion"
+msgstr "Logout"
+
+#: View/Layouts/defaultctp:63
+msgid "In"
+msgstr "In"
+
+#: View/Layouts/defaultctp:63
+msgid "Commandes à fournir ou à valider"
+msgstr "Orders to provide or validate"
+
+#: View/Layouts/defaultctp:64
+msgid "Out"
+msgstr "Out"
+
+#: View/Layouts/defaultctp:64
+msgid "Commandes envoyées à l'extérieur et pas encore reçu."
+msgstr "Orders sent outside and not yet received."
+
+#: View/Layouts/defaultctp:65
+msgid "All"
+msgstr "All"
+
+#: View/Layouts/defaultctp:65
+msgid "Toutes les commandes"
+msgstr "All orders"
+
+#: View/Layouts/defaultctp:66
+#: View/Status/createctp:33
+#: View/Status/editctp:33
+msgid "Poubelle"
+msgstr "Trash"
+
+#: View/Layouts/defaultctp:66
+msgid "Commandes supprimées"
+msgstr "Deleted orders"
+
+#: View/Layouts/defaultctp:68
+msgid "Statistiques"
+msgstr "Statistics"
+
+#: View/Layouts/defaultctp:76
+msgid "Mes commandes"
+msgstr "My orders"
+
+#: View/Layouts/defaultctp:82
+#: View/Users/loginctp:27;29;35
+msgid "Connexion"
+msgstr "Connection"
+
+#: View/Layouts/defaultctp:88
+msgid "Liste des revues"
+msgstr "List of journals"
+
+#: View/Layouts/Emails/html/defaultctp:27
+msgid "Ceci est un mail généré automatiquement par OpenIllink"
+msgstr "This is an email automatically generated by OpenIllink"
+
+#: View/Libraries/createctp:27
+msgid "Création d'une nouvelle bibliothèque"
+msgstr "Creation of a new library"
+
+#: View/Libraries/createctp:29
+msgid "Gestion des bibliothèques : Création d'une nouvelle fiche"
+msgstr "Management of librairies : Creation of a new form"
+
+#: View/Libraries/createctp:33
+#: View/Libraries/editctp:33
+msgid "Bibliothèque par défaut"
+msgstr "Default library"
+
+#: View/Libraries/createctp:35
+msgid "Enregistrer la nouvelle bibliothèque"
+msgstr "Save the new library"
+
+#: View/Libraries/editctp:27
+msgid "Édition de la bibliothèque \"%s\""
+msgstr "Edition of the library \"%s\""
+
+#: View/Libraries/editctp:29
+msgid "Gestion des bibliothèques : Édition de la fiche"
+msgstr "Management of librairies : Edition of the form"
+
+#: View/Libraries/editctp:39
+#: View/Libraries/indexctp:41
+msgid "Etes-vous sûr de vouloir supprimer la bibliothèque \"%s\"?"
+msgstr "Are you sure you want to delete the library \"%s\"?"
+
+#: View/Libraries/indexctp:29
+msgid "Gestion des bibliothèques du réseau"
+msgstr "Management of network's libraries"
+
+#: View/Libraries/indexctp:30
+msgid "bibliothèque(s) trouvée(s)"
+msgstr "Libary(ies) found"
+
+#: View/Libraries/indexctp:33
+msgid "Défaut"
+msgstr "Default"
+
+#: View/Libraries/indexctp:40
+#: View/Services/indexctp:46
+msgid "Oui"
+msgstr "Yes"
+
+#: View/Libraries/indexctp:40
+#: View/Services/indexctp:46
+msgid "Non"
+msgstr "No"
+
+#: View/Libraries/indexctp:46
+msgid "Ajouter une nouvelle bibliothèque"
+msgstr "Add a new library"
+
+#: View/Links/createctp:27
+msgid "Création d'un nouveau lien sortant"
+msgstr "Creation of a new outgoing link"
+
+#: View/Links/createctp:29
+msgid "Gestion des liens sortants : Création d'une nouvelle fiche"
+msgstr "Management of outgoing  links : Creation of a new form"
+
+#: View/Links/createctp:33
+#: View/Links/editctp:33
+#: View/Links/indexctp:33
+msgid "URL"
+msgstr "URL"
+
+#: View/Links/createctp:33
+#: View/Links/editctp:33
+msgid "OpenURL"
+msgstr "OpenURL"
+
+#: View/Links/createctp:35
+#: View/Links/editctp:35
+msgid "Lien de recherche par identifiant"
+msgstr "Search link by id"
+
+#: View/Links/createctp:41
+#: View/Links/editctp:41
+msgid "Lien de recherche par titre"
+msgstr "Search link by title"
+
+#: View/Links/createctp:42
+#: View/Links/editctp:42
+msgid "de périodique"
+msgstr "of journal"
+
+#: View/Links/createctp:43
+#: View/Links/editctp:43
+msgid "du livre"
+msgstr "of book"
+
+#: View/Links/createctp:44
+#: View/Links/editctp:44
+msgid "Titre d'article ou de chapitre"
+msgstr "Title of article or chapter"
+
+#: View/Links/createctp:47
+#: View/Links/editctp:47
+msgid "Lien de commande"
+msgstr "Order link"
+
+#: View/Links/createctp:48
+#: View/Links/editctp:48
+msgid "Formulaire externe"
+msgstr "External form"
+
+#: View/Links/createctp:49
+#: View/Links/editctp:49
+msgid "Formulaire interne"
+msgstr "Internal form"
+
+#: View/Links/createctp:51
+#: View/Links/editctp:51
+#: View/Orders/detailsctp:39
+#: View/Orders/indexctp:53
+#: View/Origins/createctp:33
+#: View/Origins/editctp:33
+msgid "Bibliothèque d'attribution"
+msgstr "Library of attribution"
+
+#: View/Links/createctp:52
+#: View/Links/editctp:52
+#: View/Links/indexctp:37
+#: View/Users/createctp:45
+#: View/Users/editctp:48
+#: View/Users/indexctp:42
+msgid "Actif"
+msgstr "Active"
+
+#: View/Links/createctp:54
+msgid "Enregistrer le nouveau lien"
+msgstr "Save the new link"
+
+#: View/Links/editctp:27
+msgid "Édition du lien sortant \"%s\""
+msgstr "Edition of outgoing link \"%s\""
+
+#: View/Links/editctp:29
+msgid "Gestion des liens sortants : Édition de la fiche"
+msgstr "Management of outgoing links : Edition of the form"
+
+#: View/Links/editctp:58
+#: View/Links/indexctp:63
+msgid "Etes-vous sûr de vouloir supprimer le lien \"%s\"?"
+msgstr "Are you sure you want to delete the link \"%s\"?"
+
+#: View/Links/indexctp:30
+msgid "lien(s) trouvé(s)"
+msgstr "link(s) found"
+
+#: View/Links/indexctp:34
+msgid "Recherche par"
+msgstr "Search by"
+
+#: View/Links/indexctp:35
+msgid "Formulaire de commande"
+msgstr "Order form"
+
+#: View/Links/indexctp:36
+#: View/Users/indexctp:39
+msgid "Bibliothèque"
+msgstr "Library"
+
+#: View/Links/indexctp:42
+msgid "Titre du périodique"
+msgstr "Title by journal"
+
+#: View/Links/indexctp:42
+msgid "Titre du livre"
+msgstr "Title of book"
+
+#: View/Links/indexctp:42
+msgid "Titre de l'article"
+msgstr "Title of article"
+
+#: View/Links/indexctp:68
+msgid "Ajouter un nouveau lien"
+msgstr "Add a new link"
+
+#: View/Orders/confirmationctp:27
+msgid "Confirmation de commande"
+msgstr "Order confirmation"
+
+#: View/Orders/confirmationctp:32
+msgid "Votre commande a été enregistrée avec succès et sera traitée prochainement"
+msgstr "Your order has been successfully saved and will be processed shortly"
+
+#: View/Orders/confirmationctp:36
+#: View/Orders/detailsctp:34
+msgid "Commande N°"
+msgstr "Order N°"
+
+#: View/Orders/confirmationctp:38
+#: View/Orders/detailsctp:43;88
+#: View/Orders/indexctp:73
+msgid "E-mail"
+msgstr "E-mail"
+
+#: View/Orders/confirmationctp:41
+#: View/Orders/createctp:181
+#: View/Orders/detailsctp:46
+#: View/Orders/editctp:157
+#: View/Orders/resolvectp:29
+msgid "Type de document"
+msgstr "Type of document"
+
+#: View/Orders/confirmationctp:54
+#: View/Orders/detailsctp:75
+msgid "Code d'accès guest"
+msgstr "Access code guest"
+
+#: View/Orders/confirmationctp:55
+msgid "Commentaire"
+msgstr "Comment"
+
+#: View/Orders/confirmationctp:68
+msgid "Remplir une nouvelle commande"
+msgstr "Complete a new order"
+
+#: View/Orders/createctp:43
+#: View/Orders/editctp:42
+msgid "Normale"
+msgstr "Normal"
+
+#: View/Orders/createctp:43
+#: View/Orders/editctp:42
+msgid "Urgente"
+msgstr "Urgent"
+
+#: View/Orders/createctp:43
+#: View/Orders/editctp:42
+msgid "Pas prioritaire"
+msgstr "Non-priority"
+
+#: View/Orders/createctp:43
+#: View/Orders/editctp:42
+msgid "Priorité"
+msgstr "Priority"
+
+#: View/Orders/createctp:44
+#: View/Orders/editctp:43
+msgid "Documentaliste"
+msgstr "Librarian"
+
+#: View/Orders/createctp:44
+#: View/Orders/editctp:43
+msgid "téléphone"
+msgstr "telephone"
+
+#: View/Orders/createctp:44
+#: View/Orders/editctp:43
+msgid "Origine de la commande"
+msgstr "Order origin"
+
+#: View/Orders/createctp:49
+#: View/Orders/editctp:46
+msgid "Date de commande"
+msgstr "Date of order"
+
+#: View/Orders/createctp:68
+#: View/Orders/editctp:63
+msgid "A renouveler le"
+msgstr "To renew the"
+
+#: View/Orders/createctp:77
+#: View/Orders/editctp:71
+msgid "Commande payée à l'avance"
+msgstr "Orders paid in advance"
+
+#: View/Orders/createctp:83
+#: View/Orders/detailsctp:73
+#: View/Orders/editctp:77
+msgid "Réf. fournisseur"
+msgstr "Ref. supplier"
+
+#: View/Orders/createctp:84
+#: View/Orders/detailsctp:74
+#: View/Orders/editctp:78
+msgid "Réf. interne à la bibliothèque"
+msgstr "Internal ref."
+
+#: View/Orders/createctp:89
+#: View/Orders/editctp:82
+msgid "Commentaires professionnels"
+msgstr "Professional comment"
+
+#: View/Orders/createctp:114
+#: View/Orders/editctp:95
+#: View/Orders/resolve_from_l_d_a_pctp:28
+msgid "Prénom"
+msgstr "First name"
+
+#: View/Orders/createctp:117
+#: View/Orders/editctp:98
+#: View/Orders/resolve_from_l_d_a_pctp:32;44
+msgid "Choisir SVP."
+msgstr "Please choose."
+
+#: View/Orders/createctp:120
+#: View/Orders/editctp:101
+#: View/Orders/resolve_from_l_d_a_pctp:35
+msgid "Code budgétaire"
+msgstr "Budget code"
+
+#: View/Orders/createctp:121
+#: View/Orders/editctp:102
+#: View/Orders/resolve_from_l_d_a_pctp:36
+msgid "Ligne budgétaire"
+msgstr "Budget line"
+
+#: View/Orders/createctp:123
+#: View/Orders/editctp:104
+#: View/Orders/resolve_from_l_d_a_pctp:38
+#: View/Users/createctp:43
+#: View/Users/editctp:46
+msgid "Email"
+msgstr "Email"
+
+#: View/Orders/createctp:126
+#: View/Orders/editctp:107
+msgid "Adresse privée"
+msgstr "Private address"
+
+#: View/Orders/createctp:128
+#: View/Orders/editctp:109
+msgid "Localité"
+msgstr "City"
+
+#: View/Orders/createctp:129
+#: View/Orders/editctp:110
+msgid "Si disponible à la bibliothèque"
+msgstr "If available at the library"
+
+#: View/Orders/createctp:130
+#: View/Orders/editctp:111
+msgid "envoi par email (facturé)"
+msgstr "emailing (charged)"
+
+#: View/Orders/createctp:130
+#: View/Orders/editctp:111
+msgid "m'avertir et je passe faire la copie (non facturé)"
+msgstr "warn me and I pass to copy (not charged)"
+
+#: View/Orders/createctp:132
+msgid "Mémoriser ces données pour les prochaines commandes (cookies autorisés)"
+msgstr "Store data for future orders (cookies allowed)"
+
+#: View/Orders/createctp:145
+#: View/Orders/editctp:124
+msgid "Remplir la commande à partir du "
+msgstr "Fill order from the"
+
+#: View/Orders/createctp:182
+#: View/Orders/editctp:158
+#: View/Orders/resolvectp:30
+msgid "Article"
+msgstr "Article"
+
+#: View/Orders/createctp:183
+#: View/Orders/editctp:159
+#: View/Orders/resolvectp:31
+msgid "Preprint"
+msgstr "Preprint"
+
+#: View/Orders/createctp:185
+#: View/Orders/editctp:161
+#: View/Orders/resolvectp:33
+msgid "Chapitre de livre"
+msgstr "Book chapter"
+
+#: View/Orders/createctp:186
+#: View/Orders/editctp:162
+#: View/Orders/resolvectp:34
+msgid "Thèse"
+msgstr "Thesis"
+
+#: View/Orders/createctp:187
+#: View/Orders/editctp:163
+#: View/Orders/resolvectp:35
+msgid "No de revue"
+msgstr "N° of journal"
+
+#: View/Orders/createctp:188
+#: View/Orders/editctp:164
+#: View/Orders/resolvectp:36
+msgid "Actes d'un congrès"
+msgstr "Conference proceedings "
+
+#: View/Orders/createctp:189
+#: View/Orders/editctp:165
+#: View/Orders/resolvectp:37
+msgid "Article d'une conférence"
+msgstr "Conference report"
+
+#: View/Orders/createctp:190
+#: View/Orders/editctp:166
+#: View/Orders/resolvectp:38
+msgid "Autre"
+msgstr "Other"
+
+#: View/Orders/createctp:191
+#: View/Orders/editctp:167
+#: View/Orders/resolvectp:39
+msgid "Titre du périodique / livre"
+msgstr "Title of journal / book"
+
+#: View/Orders/createctp:195
+#: View/Orders/editctp:171
+#: View/Orders/indexctp:91
+#: View/Orders/resolvectp:43
+msgid "Vol."
+msgstr "Vol."
+
+#: View/Orders/createctp:201
+#: View/Orders/editctp:177
+#: View/Orders/resolvectp:49
+msgid "Titre de l'article / chapitre"
+msgstr "Title of article / chapter"
+
+#: View/Orders/createctp:208
+#: View/Orders/editctp:184
+#: View/Orders/resolvectp:56
+msgid "Edition (pour les livres)"
+msgstr "Edition (for books)"
+
+#: View/Orders/createctp:209
+#: View/Orders/editctp:185
+#: View/Orders/resolvectp:57
+msgid "ISSN / ISBN"
+msgstr "ISSN / ISBN"
+
+#: View/Orders/createctp:210
+#: View/Orders/editctp:186
+#: View/Orders/resolvectp:58
+msgid "UID"
+msgstr "UID"
+
+#: View/Orders/createctp:213
+#: View/Orders/editctp:189
+#: View/Orders/resolvectp:61
+msgid "Remarques"
+msgstr "Remarks"
+
+#: View/Orders/createctp:215
+#: View/Orders/editctp:33;193
+#: View/Users/createctp:51
+#: View/Users/editctp:56
+msgid "Enregistrer"
+msgstr "Save"
+
+#: View/Orders/createctp:216
+msgid "Effacer"
+msgstr "Erase"
+
+#: View/Orders/detailsctp:27
+msgid "Détails de la commande n°%s"
+msgstr "Details of Order n°%s"
+
+#: View/Orders/detailsctp:38;100;101
+msgid "Date de renouvellement"
+msgstr "Date of renewal"
+
+#: View/Orders/detailsctp:42
+#: View/Orders/indexctp:72
+msgid "Lecteur"
+msgstr "Reader"
+
+#: View/Orders/detailsctp:59
+msgid "Code de gestion A"
+msgstr "Management Code A"
+
+#: View/Orders/detailsctp:60
+msgid "Code de gestion B"
+msgstr "Management Code B"
+
+#: View/Orders/detailsctp:61
+msgid "N° tél."
+msgstr "Phone n°"
+
+#: View/Orders/detailsctp:66
+msgid "Saisie par"
+msgstr "Entered by"
+
+#: View/Orders/detailsctp:67
+msgid "Adresse IP"
+msgstr "IP address"
+
+#: View/Orders/detailsctp:68
+msgid "Url de provenance"
+msgstr "Url provenance"
+
+#: View/Orders/detailsctp:69
+msgid "Arrivé par"
+msgstr "Arriving by"
+
+#: View/Orders/detailsctp:70
+msgid "Livraison"
+msgstr "Delivery"
+
+#: View/Orders/detailsctp:71
+msgid "Prix"
+msgstr "Price"
+
+#: View/Orders/detailsctp:72
+msgid "Payé à l'avance"
+msgstr "Paid in advance"
+
+#: View/Orders/detailsctp:76
+msgid "Commentaire public"
+msgstr "Public comment"
+
+#: View/Orders/detailsctp:77;94
+msgid "Commentaire professionnel"
+msgstr "Professional comment"
+
+#: View/Orders/detailsctp:78;97
+msgid "Historique"
+msgstr "History"
+
+#: View/Orders/detailsctp:121
+msgid "Editer la commande"
+msgstr "Edit order"
+
+#: View/Orders/detailsctp:140
+msgid "Recherche par ISSN"
+msgstr "Search by ISSN"
+
+#: View/Orders/detailsctp:140
+msgid "Recherche par ISBN"
+msgstr "Search by ISBN"
+
+#: View/Orders/detailsctp:140
+msgid "Recherche par PMID"
+msgstr "Search by PMID"
+
+#: View/Orders/detailsctp:140
+msgid "Recherche par titre d'article"
+msgstr "Search by article title"
+
+#: View/Orders/detailsctp:140
+msgid "Recherche par titre de périodique"
+msgstr "Search by journal title"
+
+#: View/Orders/detailsctp:140
+msgid "Recherche par titre de livre"
+msgstr "Search by book title"
+
+#: View/Orders/detailsctp:140
+msgid "Recherche par titre de chapitre"
+msgstr "Search by chapter title"
+
+#: View/Orders/detailsctp:140
+msgid "Traiter la commande"
+msgstr "Process the order"
+
+#: View/Orders/editctp:27
+msgid "Édition de la commande n°%s"
+msgstr "Editing the order n°%s"
+
+#: View/Orders/editctp:32
+msgid "Attribué à la bibliothèque "
+msgstr "Attributed to the library"
+
+#: View/Orders/editctp:197
+msgid "Etes-vous sûr de vouloir supprimer la commande %s?"
+msgstr "Are you sure you want to delete the order %s?"
+
+#: View/Orders/indexctp:27
+msgid "Liste des commandes"
+msgstr "List of commands"
+
+#: View/Orders/indexctp:35
+msgid "Chercher"
+msgstr "Search"
+
+#: View/Orders/indexctp:37
+msgid "Ok"
+msgstr "Ok"
+
+#: View/Orders/indexctp:45
+msgid "Affichage des commandes {:start} à {:end} sur un total de {:count} trouvées pour la boite %s"
+msgstr "View Orders {:start} to {:end} from a total of {:count} found for the box  % s"
+
+#: View/Orders/indexctp:51
+msgid "Commande No"
+msgstr "Order number"
+
+#: View/Orders/indexctp:51
+msgid "Voir la notice complète"
+msgstr "See the complete note"
+
+#: View/Orders/indexctp:53
+msgid "Date"
+msgstr "Date"
+
+#: View/Orders/indexctp:59
+msgid "Commande urgente"
+msgstr "Urgent order"
+
+#: View/Orders/indexctp:72
+msgid "Chercher les commandes de ce lecteur"
+msgstr "Search orders from this reader"
+
+#: View/Orders/indexctp:73
+msgid "Chercher les commandes avec cet email"
+msgstr "Search orders with this email"
+
+#: View/Orders/indexctp:78
+msgid "Chercher les commandes avec ce titre d'article"
+msgstr "Search orders with this article title"
+
+#: View/Orders/indexctp:89
+msgid "Chercher les commandes avec ce titre de %s"
+msgstr "Search orders with this %s title"
+
+#: View/Orders/indexctp:104
+msgid "Début"
+msgstr "Start"
+
+#: View/Orders/indexctp:105
+msgid "Précédent"
+msgstr "Previous"
+
+#: View/Orders/indexctp:112
+msgid "Suivant"
+msgstr "Next"
+
+#: View/Orders/indexctp:113
+msgid "Fin"
+msgstr "End"
+
+#: View/Orders/resolve_from_l_d_a_pctp:44
+msgid "Plusieurs personnes correspondent à votre recherche, veuillez choisir."
+msgstr "Several people match your search, please choose."
+
+#: View/Origins/createctp:27
+msgid "Création d'une nouvelle provenance"
+msgstr "Creation of a new origin"
+
+#: View/Origins/createctp:29
+msgid "Gestion des provenances : Création d'une nouvelle fiche"
+msgstr "Management of origins : Creation of a new form"
+
+#: View/Origins/createctp:35
+msgid "Enregistrer la nouvelle provenance"
+msgstr "Save the new origin"
+
+#: View/Origins/editctp:27
+msgid "Édition de la provenance \"%s\""
+msgstr "Edition of origin \"%s\""
+
+#: View/Origins/editctp:29
+msgid "Gestion des provenances : Édition de la fiche"
+msgstr "Management origins : Edition of the form"
+
+#: View/Origins/editctp:39
+#: View/Origins/indexctp:41
+msgid "Etes-vous sûr de vouloir supprimer la provenance \"%s\"?"
+msgstr "Are you sure you want to delete the origin  \"%s\"?"
+
+#: View/Origins/indexctp:29
+msgid "Gestion des provenances du réseau"
+msgstr "Management of network origins"
+
+#: View/Origins/indexctp:30
+msgid "provenance(s) trouvée(s)"
+msgstr "Origin(s) found"
+
+#: View/Origins/indexctp:33
+msgid "Appartenance"
+msgstr "Belonging"
+
+#: View/Origins/indexctp:46
+msgid "Ajouter une nouvelle provenance"
+msgstr "Add a new origin"
+
+#: View/Services/createctp:27
+msgid "Création d'un nouveau service"
+msgstr "Creation of a new service"
+
+#: View/Services/createctp:29
+msgid "Gestion des services : Création d'une nouvelle fiche"
+msgstr "Management of services : Creation of a new form"
+
+#: View/Services/createctp:33
+#: View/Services/editctp:33
+msgid "Attaché à la bibliothèque"
+msgstr "Attached to the library"
+
+#: View/Services/createctp:35
+#: View/Services/editctp:35
+#: View/Services/indexctp:34
+msgid "Département"
+msgstr "Department"
+
+#: View/Services/createctp:39
+#: View/Services/editctp:39
+#: View/Services/indexctp:35
+msgid "Faculté"
+msgstr "Faculty"
+
+#: View/Services/createctp:42
+#: View/Services/editctp:42
+msgid "Affichage selon IP"
+msgstr "Display by IP"
+
+#: View/Services/createctp:43
+#: View/Services/editctp:43
+msgid "A valider par la bibliothèque"
+msgstr "To validate by the library"
+
+#: View/Services/createctp:45
+msgid "Enregistrer le nouveau service"
+msgstr "Save the new service"
+
+#: View/Services/editctp:27
+msgid "Édition du service \"%s\""
+msgstr "Edition of service  \"%s\""
+
+#: View/Services/editctp:29
+msgid "Gestion des services : Édition de la fiche"
+msgstr "Management of services: Edition of the form"
+
+#: View/Services/editctp:49
+#: View/Services/indexctp:47
+msgid "Etes-vous sûr de vouloir supprimer le service \"%s\"?"
+msgstr "Are you sure you want to delete the service  \"%s\"?"
+
+#: View/Services/indexctp:27;29
+msgid "Gestion des services"
+msgstr "Management of services"
+
+#: View/Services/indexctp:30
+msgid "service(s) trouvé(s)"
+msgstr "Service(s) found"
+
+#: View/Services/indexctp:33
+msgid "Attaché à"
+msgstr "Attached to"
+
+#: View/Services/indexctp:36
+msgid "Valid. requise"
+msgstr "Valid. required"
+
+#: View/Services/indexctp:52
+msgid "Ajouter un nouveau service"
+msgstr "Add a new service"
+
+#: View/Statistics/indexctp:27
+msgid "No de commande"
+msgstr "Order number"
+
+#: View/Statistics/indexctp:28
+msgid "Commandé le"
+msgstr "Ordered at"
+
+#: View/Statistics/indexctp:29
+msgid "Envoyé le"
+msgstr "Sent the"
+
+#: View/Statistics/indexctp:30
+msgid "Prénom du demandeur"
+msgstr "First name of requester"
+
+#: View/Statistics/indexctp:31
+msgid "Nom du demandeur"
+msgstr "Requester's name"
+
+#: View/Statistics/indexctp:32
+msgid "Service du demandeur"
+msgstr "Requester's service"
+
+#: View/Statistics/indexctp:33
+msgid "Département du demandeur"
+msgstr "Requester's department"
+
+#: View/Statistics/indexctp:34
+msgid "Faculté du demandeur"
+msgstr "Faculty of requester"
+
+#: View/Statistics/indexctp:35
+msgid "Fournisseur du document"
+msgstr "Provider of document"
+
+#: View/Statistics/indexctp:36
+msgid "Statut de la commande"
+msgstr "Order status"
+
+#: View/Statistics/indexctp:39
+msgid "Veuillez choisir une statistique prédéfinie"
+msgstr "Please select a predefined statistic"
+
+#: View/Statistics/indexctp:41
+msgid "Statistique prédéfinie"
+msgstr "Predefined statistic"
+
+#: View/Statistics/indexctp:43
+msgid "Date de début"
+msgstr "Date the beginning"
+
+#: View/Statistics/indexctp:47
+msgid "Date de fin"
+msgstr "Date of end"
+
+#: View/Statistics/indexctp:53
+msgid "Ou créez une statistique"
+msgstr "Or create a statistic"
+
+#: View/Statistics/indexctp:57
+msgid "Champs affichés"
+msgstr "Displayed fields"
+
+#: View/Statistics/indexctp:59
+msgid "Appliquer fonction Count"
+msgstr "Apply function Count"
+
+#: View/Statistics/indexctp:62
+msgid "Ajouter un champ"
+msgstr "Add Field"
+
+#: View/Statistics/indexctp:64
+msgid "Regroupement sur"
+msgstr "Grouping on"
+
+#: View/Statistics/indexctp:66
+msgid "Ajouter un regroupement"
+msgstr "Add a group"
+
+#: View/Statistics/indexctp:69
+msgid "Condition"
+msgstr "Condition"
+
+#: View/Statistics/indexctp:74
+msgid "Ajouter une condition"
+msgstr "Add condition"
+
+#: View/Status/createctp:27
+msgid "Création d'un nouveau statut"
+msgstr "Creation of a new status"
+
+#: View/Status/createctp:29
+msgid "Gestion des statuts : Création d'une nouvelle fiche"
+msgstr "Management of statuses : Creation of a new form"
+
+#: View/Status/createctp:32
+#: View/Status/editctp:32
+#: View/Status/indexctp:33
+msgid "Description"
+msgstr "Description"
+
+#: View/Status/createctp:33
+#: View/Status/editctp:33
+msgid "Visible dans la boite"
+msgstr "Visible in the box"
+
+#: View/Status/createctp:33
+#: View/Status/editctp:33
+msgid "in"
+msgstr "in"
+
+#: View/Status/createctp:33
+#: View/Status/editctp:33
+msgid "out"
+msgstr "out"
+
+#: View/Status/createctp:34
+#: View/Status/editctp:34
+#: View/Status/indexctp:35
+msgid "Statut spécial"
+msgstr "Special status"
+
+#: View/Status/createctp:35
+#: View/Status/editctp:35
+msgid "Couleur (code HTML)"
+msgstr "Color (HTML)"
+
+#: View/Status/createctp:37
+msgid "Enregistrer le nouveau statut"
+msgstr "Save the new status"
+
+#: View/Status/editctp:27
+msgid "Édition du statut \"%s\""
+msgstr "Edition of status \"%s\""
+
+#: View/Status/editctp:29
+msgid "Gestion des statuts : Édition de la fiche"
+msgstr "Management of statuses : Edition of the form"
+
+#: View/Status/editctp:41
+#: View/Status/indexctp:45
+msgid "Etes-vous sûr de vouloir supprimer le statut \"%s\"?"
+msgstr "Are you sure you want to delete the status  \"%s\"?"
+
+#: View/Status/indexctp:27
+msgid "Gestion des statuts"
+msgstr "Management of statuses"
+
+#: View/Status/indexctp:29
+msgid "Gestion des statuts des commandes"
+msgstr "Management of orders statuses"
+
+#: View/Status/indexctp:30
+msgid "statuts trouvés"
+msgstr "statuses found"
+
+#: View/Status/indexctp:34
+msgid "Dossier"
+msgstr "File"
+
+#: View/Status/indexctp:50
+msgid "Ajouter un nouveau statut"
+msgstr "Add a new status"
+
+#: View/Users/createctp:27
+msgid "Création d'un nouvel utilisateur"
+msgstr "Creation of a new user"
+
+#: View/Users/createctp:29
+msgid "Gestion des utilisateurs : Création d'une nouvelle fiche"
+msgstr "Management of users : Creation of a new form"
+
+#: View/Users/createctp:34
+#: View/Users/editctp:34
+msgid "Super administrateur"
+msgstr "Super Administrator"
+
+#: View/Users/createctp:35
+#: View/Users/editctp:35;39
+msgid "Administrateur"
+msgstr "Administrator"
+
+#: View/Users/createctp:38
+#: View/Users/editctp:41
+msgid "Collaborateur"
+msgstr "Collaborator"
+
+#: View/Users/createctp:39
+#: View/Users/editctp:42
+msgid "Invité"
+msgstr "Guest"
+
+#: View/Users/createctp:46
+#: View/Users/editctp:49
+#: View/Users/indexctp:41
+msgid "Droits"
+msgstr "Rights"
+
+#: View/Users/createctp:47
+#: View/Users/editctp:50
+msgid "Bibliothèque d'attache"
+msgstr "Home library"
+
+#: View/Users/createctp:49
+msgid "Répéter mot de passe"
+msgstr "Repeat password"
+
+#: View/Users/editctp:27
+msgid "Edition de l'utilisateur \"%s\""
+msgstr "Edition User \"%s\""
+
+#: View/Users/editctp:29
+msgid "Gestion des utilisateurs : Édition de la fiche"
+msgstr "Management of users : Edition of the form"
+
+#: View/Users/editctp:51
+msgid "Nouveau mot de passe"
+msgstr "New password"
+
+#: View/Users/editctp:52
+msgid "Répéter nouveau mot de passe"
+msgstr "Repeat new password"
+
+#: View/Users/editctp:59
+#: View/Users/indexctp:56
+msgid "Etes-vous sûr de vouloir supprimer l'utilisateur \"%s\"?"
+msgstr "Are you sure you want to delete user \"%s\"?"
+
+#: View/Users/indexctp:36
+msgid "utilisateur(s) trouvée(s)"
+msgstr "User(s) found"
+
+#: View/Users/indexctp:40
+msgid "Login"
+msgstr "Login"
+
+#: View/Users/indexctp:63
+msgid "Ajouter un nouvel utilisateur"
+msgstr "Add a new user"
+
+#: View/Users/loginctp:40
+msgid "Authentification Shibboleth"
+msgstr "Shibboleth authentication"
+
+#~ msgid "Reconnaissance SSO activée"
+#~ msgstr "SSO authentication activated"
+
+#~ msgid "Adresse d'authentification Shibboleth"
+#~ msgstr "Shibboleth authentication  adress"
+
+#~ msgid "Nom (français)"
+#~ msgstr "Name (French)"
+
+#~ msgid "Nom (allemand)"
+#~ msgstr "Name (German)"
+
+#~ msgid "Nom (anglais)"
+#~ msgstr "Name (English)"
+
+#~ msgid "Nom (italien)"
+#~ msgstr "Name (Italian)"
+
+#~ msgid "Nom (espagnol)"
+#~ msgstr "Name (Spanish)"
+
+#~ msgid "Description (français)"
+#~ msgstr "Description (French)"
+
+#~ msgid "Description (allemand)"
+#~ msgstr "Description (German)"
+
+#~ msgid "Description (anglais)"
+#~ msgstr "Description (English)"
+
+#~ msgid "Description (italien)"
+#~ msgstr "Description (Italian)"
+
+#~ msgid "Description (espagnol)"
+#~ msgstr "Description (Spanish)"
+
+#~ msgid "Identifiant : "
+#~ msgstr "Login :"
+
+#~ msgid "Mot de passe : "
+#~ msgstr "Password : "
+
+#~ msgid "Type de document :"
+#~ msgstr "Type of document :"
+
+#~ msgid "Titre du périodique / livre : "
+#~ msgstr "Title of journal / book :"
+
+#~ msgid "Année :"
+#~ msgstr "Year :"
+
+#~ msgid "Vol. :"
+#~ msgstr "Vol. :"
+
+#~ msgid "N° :"
+#~ msgstr "N° :"
+
+#~ msgid "Suppl. :"
+#~ msgstr "Suppl. :"
+
+#~ msgid "Pages :"
+#~ msgstr "Pages :"
+
+#~ msgid "Titre de l'article / chapitre :"
+#~ msgstr "Title of article / chapter :"
+
+#~ msgid "Auteurs :"
+#~ msgstr "Authors :"
+
+#~ msgid "Edition (pour les livres) :"
+#~ msgstr "Edition (for books) :"
+
+#~ msgid "ISSN / ISBN :"
+#~ msgstr "ISSN / ISBN :"
+
+#~ msgid "UID :"
+#~ msgstr "UID :"
+
+#~ msgid "Remarques :"
+#~ msgstr "Remarks :"
+
+#~ msgid "N° de tél"
+#~ msgstr "Phone number"
+
+#~ msgid "Stade :"
+#~ msgstr "Stage :"
+
+#~ msgid "Provenance :"
+#~ msgstr "Origin : "
+
+#~ msgid "Priorité :"
+#~ msgstr "Priority :"
+
+#~ msgid "Date de commande :"
+#~ msgstr "Date of order :"
+
+#~ msgid "Date d'envoi :"
+#~ msgstr "Date of sending :"
+
+#~ msgid "Date de facturation :"
+#~ msgstr "Date of billing :"
+
+#~ msgid "A renouveler le :"
+#~ msgstr "To renew the :"
+
+#~ msgid "Réf. fournisseur : "
+#~ msgstr "Ref. supplier :"
+
+#~ msgid "Réf. interne à la bibliothèque : "
+#~ msgstr "Ref. internal to the library:"
+
+#~ msgid "Commentaires professionnels : "
+#~ msgstr "Professional comments :"
+
+#~ msgid "Nom :"
+#~ msgstr "Name :"
+
+#~ msgid "Prénom :"
+#~ msgstr "First name :"
+
+#~ msgid "Code budgétaire :"
+#~ msgstr "Budget Code :"
+
+#~ msgid "Ligne budgétaire :"
+#~ msgstr "Budget line :"
+
+#~ msgid "Email :"
+#~ msgstr "Email :"
+
+#~ msgid "Tél :"
+#~ msgstr "Phone :"
+
+#~ msgid "Adresse privée :"
+#~ msgstr "Private address :"
+
+#~ msgid "Code postal :"
+#~ msgstr "Zip code :"
+
+#~ msgid "Localité :"
+#~ msgstr "City :"
+
+#~ msgid "Si disponible à la bibliothèque :"
+#~ msgstr "If available at the library :"
+
+#~ msgid "Remarque :"
+#~ msgstr "Comment :"
+
+#~ msgid "Adresse :"
+#~ msgstr "Adress :"
+
+#~ msgid "Site web :"
+#~ msgstr "Website :"
+
+#~ msgid "Commande No : "
+#~ msgstr "Order No :"
+
+#~ msgid "Bibliothèque d'attribution : "
+#~ msgstr "Library of attribution"
+
+#~ msgid "Provenance : "
+#~ msgstr "Origin :"
+
+#~ msgid "Lecteur : "
+#~ msgstr "Reader :"
+
+#~ msgid "E-mail : "
+#~ msgstr "E-mail : "
+
+#~ msgid "Service : "
+#~ msgstr "Service :"
+
+#~ msgid "Titre : "
+#~ msgstr "Title :"
+
+#~ msgid "Auteurs : "
+#~ msgstr "Authors :"
+
+#, fuzzy
+#~ msgid "Status : "
+#~ msgstr "Status :"
+
+#, fuzzy
+#~ msgid "Status spécial"
+#~ msgstr "Special Status"
