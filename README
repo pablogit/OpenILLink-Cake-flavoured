@@ -4,7 +4,9 @@
 // OpenIllink is a web based library system designed to manage 
 // ILL, document delivery and OpenURL links
 // 
-// Copyright (C) 2014, Cyril Sester (cyril.sester@outlook.com)
+// 
+// Copyright (C) 2013 original program : Pablo Iriarte (pablo@pablog.ch)
+// Copyright (C) 2014 new rewritten version with Cake PHP framework (http://cakephp.org/) : Cyril Sester (cyril.sester@outlook.com)
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
