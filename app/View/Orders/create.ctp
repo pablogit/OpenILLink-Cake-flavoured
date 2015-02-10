@@ -152,9 +152,9 @@ elseif(!empty($configuration['Configuration']['order_info']))
 							<!--<option value="reroid">REROID</option>
 							<option value="wosid">Wos ID</option>-->
 						</select>
-						<input type="text" maxlength="50" name="uid" id="uid" />
+						<input type="text" maxlength="50" name="uid" id="uid" value="<?php echo $this->request->data['uid']; ?>" />
 						<button type="submit" id="resolveSubmit" onclick="cleanupUid(); return false;" class="btn">OK</button>
-					<?php 
+					<?php
 					$this->Js->get('#resolveSubmit')->event(
 					   'click',
 					   $this->Js->request(
@@ -246,5 +246,14 @@ if(!AuthComponent::user('id') && $configuration['Configuration']['is_ldap_active
 {
 	echo '<script type="text/javascript">
         autoFill();
+		</script>';
+}
+
+if($this->request->data['uid'] != '')
+{
+	echo '<script type="text/javascript">
+        $(document).ready(function(){
+			 $("#resolveSubmit").trigger("click");
+			});
 		</script>';
 }
