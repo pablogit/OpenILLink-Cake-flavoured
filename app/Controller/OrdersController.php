@@ -146,6 +146,12 @@ class OrdersController extends AppController
 			$this->request->data['Order'] = $this->Cookie->read('FormInfo');
 		}
 
+		$this->request->data['uid'] = '';
+		if(isset($_GET['pmid']))
+		{
+			$this->request->data['uid'] = $_GET['pmid'];
+		}
+
 		//And fill from openurl params
 		$this->useOpenurlParams();
 
