@@ -45,7 +45,7 @@ class OrdersController extends AppController
 		elseif($box === 'out' || $box === 'trash')
 			$conditions['Status.is_visible_in_box'] = $box;
 
-		if($this->Auth->user('admin_level') == '2' && $this->Auth->user('admin_level') == '3')
+		if($this->Auth->user('admin_level') == '2' || $this->Auth->user('admin_level') == '3')
 			$conditions['Order.library_id'] = $this->Auth->user('library_id');
 		elseif($this->Auth->user('admin_level') == '9')
 			$conditions['Order.mail'] = $this->Auth->user('username');
